@@ -1,0 +1,121 @@
+.bg {
+  width: 256px;
+  height: 256px;
+  background: url('./images/mario.png');
+}
+
+.opacity {
+  height: inherit;
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+
+.rgba {
+  height: inherit;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.opacity-transition {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.opacity-transition:hover {
+  opacity: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin: 100px;
+  background-color: hotpink;
+  transition: all 0.2s;
+}
+
+.box:hover {
+  transform: scale(2);
+}
+
+.circle-alone {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: salmon;
+  transition: all 0.5s;
+}
+
+.circle-alone:hover {
+  transform: translateX(200px);
+}
+
+.container-x {
+  width: 50px;
+  /* border: 2px dashed green; */
+}
+
+.container-x:hover .circle {
+  transform: translateX(200px);
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: tomato;
+  transition: all 0.5s;
+}
+
+.container-y {
+  border: 2px dashed orangered;
+}
+
+.container-y:hover .circle {
+  transform: translateY(200px);
+}
+
+.square-container {
+  height: 300px;
+  border: 2px dashed skyblue;
+  position: relative;
+}
+
+.square1 {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: navy;
+}
+
+.square2 {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: violet;
+  transition: all 0.3s;
+}
+
+.square2:hover {
+  transform: translate(20px, 20px);
+}
+
+.droplet {
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+  background-color: turquoise;
+  border-radius: 15px 50%;
+  transition: all 1s;
+}
+
+.droplet:hover {
+  transform: rotate(360deg);
+}

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 1200px;
+  height: 3000px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  border: 2px solid red;
+}
+
+header {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 80px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 150px;
+}
+
+ul.letters {
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  width: 60px;
+  height: 48px;
+  background-color: orange;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 24px;
+  margin: 15px;
+}

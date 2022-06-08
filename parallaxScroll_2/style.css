@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navigation {
+  background-color: rgba(0,0,0,0.6);
+  height: 40px;
+}
+
+nav {
+  width: 800px;
+  margin: 0 auto;
+  color: aliceblue;
+  overflow: hidden;
+}
+
+nav h3 {
+  float: left;
+  padding-top: 9px;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 9px 30px;
+}
+
+header {
+  background: url('images/imprenta-de-tipo-mc3b3vil.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1200px;
+  border: 4px solid orangered;
+}
+
+#background {
+  background: url('images/Metal_movable_type.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1200px;
+  border: 4px solid magenta;
+}

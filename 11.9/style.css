@@ -1,0 +1,108 @@
+/* Opacity */
+.transition-opacity {
+  width: 128px;
+  height: 256px;
+  margin: 10px;
+  background-color: aqua;
+}
+
+.img-container {
+  cursor: pointer;
+  opacity: 0.1;
+  transition: opacity 0.5s;
+}
+
+.img-container:hover {
+  opacity: 1;
+}
+
+
+/* dropshadow */
+.transition-dropshadow {
+  width: 128px;
+  height: 256px;
+  margin: 10px;
+}
+
+.img-container-dropshadow img {
+  cursor: pointer;
+  transition: filter 0.5s;
+}
+
+.img-container-dropshadow:hover img {
+  filter: drop-shadow(8px 8px 10px #222345);
+}
+
+/*Rotate*/
+.transition-rotate {
+  width: 128px;
+  height: 256px;
+  margin: 10px;
+}
+
+.img-container-rotate img,
+.img-container-rotate-y img {
+  cursor: pointer;
+  transition: transform 0.8s;
+}
+
+.img-container-rotate:hover img {
+  transform: rotate(-180deg);
+}
+
+.img-container-rotate-y:hover img {
+  transform: rotateY(720deg);
+}
+
+
+
+/*translate*/
+.transition-translate {
+  width: 128px;
+  height: 256px;
+  margin: 10px;
+}
+
+.img-container-translate-x img,
+.img-container-translate-y img {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.img-container-translate-x:hover img {
+  transform: translate(128px);
+  filter: drop-shadow(8px 8px 10px #222345);
+}
+
+.img-container-translate-y:hover img {
+  transform: translate(0, 128px);
+  filter: drop-shadow(8px 8px 10px #222345);
+}
+
+.bot {
+  height: 500px;
+}
+
+
+/*scale*/
+.transition-scale {
+  width: 128px;
+  height: 256px;
+  margin: 10px;
+}
+
+.img-container-scale-x img,
+.img-container-scale-y img{
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.img-container-scale-x:hover img{
+  transform: scale(2);
+  filter: drop-shadow(8px 8px 10px #222345);
+}
+
+.img-container-scale-y:hover img{
+  transform: scale(0.5);
+  filter: drop-shadow(8px 8px 10px #222345);
+}

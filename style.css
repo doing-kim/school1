@@ -1,0 +1,11 @@
+body {
+  background: url("./images/constructive-backdrop.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+h1 {
+  height: 175px;
+  text-indent: -9999px;
+  background-image: url("./images/constructive-logo.gif");
+  background-repeat: no-repeat;
+  border: 1px solid red;
+}

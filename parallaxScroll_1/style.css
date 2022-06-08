@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 1200px;
+    height: 3000px;
+    margin: 0 auto;
+    background-color: #E7E2DD;
+    text-align: center;
+}
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 80px 0;
+    font-size: 2em;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 120px;
+}
+
+ul.letters {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    width: 60px;
+    height: 45px;
+    border-radius: 60px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+    margin: 15px;
+}
